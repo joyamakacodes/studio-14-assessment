@@ -5,7 +5,7 @@ import Filter from "../filter/Filter";
 
 const Main = () => {
   return (
-    <Box px={{ base: "0", md: "3rem" }} bg="white">
+    <Box px={{ base: "0", md: "3rem" }} bg="white" pb='3rem'>
       <Text fontWeight="bold" my="20px" display={{ base: "none", md: "block" }}>
         Filter
       </Text>

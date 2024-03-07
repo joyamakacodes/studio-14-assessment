@@ -66,7 +66,7 @@ const Cards = () => {
       id: 6,
       icon: icon2,
       background: bg5,
-      title: "The ultimate guide to Workplace Chat",
+      title: "Taking stock of mental health in your workplace",
       scope: "Sample Topic",
       category: "Secure Base",
     },
@@ -83,7 +83,7 @@ const Cards = () => {
       >
         {cards.map((card) => (
           <GridItem key={card.id}>
-            <Card px="20px" pt="3rem" pb="0.3rem" position="relative">
+            <Card px="20px" pt="4rem" pb="0.3rem" position="relative" height='300px'>
               <Image
                 src={card.background}
                 alt={card.scope}
@@ -92,7 +92,7 @@ const Cards = () => {
                 position="absolute"
                 top="0px"
                 left="0px"
-                height="100px"
+                height="115px"
                 zIndex="2"
               />
               <Image
@@ -104,7 +104,7 @@ const Cards = () => {
               />
 
               <Stack mt="6" spacing="3">
-                <Heading size="md">{card.title}</Heading>
+                <Heading size="md" width='70%'>{card.title}</Heading>
                 <Text color="grey.200">{card.scope}</Text>
                 <Tag
                   color="grey.200"
