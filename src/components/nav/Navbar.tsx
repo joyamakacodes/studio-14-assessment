@@ -76,6 +76,7 @@ const Navbar = () => {
       color="black"
       boxShadow={{ base: "none", md: "md" }}
       direction={{ base: "row", md: "row" }}
+      bg="white"
     >
       {/* Logo */}
       <Flex align="center" mr={5}>

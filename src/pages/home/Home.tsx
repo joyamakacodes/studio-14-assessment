@@ -5,7 +5,7 @@ import Main from '../../components/main/Main';
 
 const Home = () => {
   return (
-    <div style={{background: '#F1F1F1' }}>
+    <div style={{background: '#FAFAFA' }}>
       <Navbar/>
       <Hero/>
       <Main/>

@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
       </Heading>
       <Text
         fontSize="17px"
-        width={{ base: "80%", md: "40%" }}
+        width={{ base: "90%", md: "40%" }}
         textAlign="center"
         my="1rem"
       >

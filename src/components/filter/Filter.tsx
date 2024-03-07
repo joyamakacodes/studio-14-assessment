@@ -71,11 +71,13 @@ const Filter = () => {
       display="flex"
       flexDirection="column"
       pb="30px"
+      
     >
       <Button
         onClick={onToggle}
         display={{ base: "block", md: "none" }}
-        bg="gray.200"
+        bg="#F1F1F1"
+        height="50px"
         
       >
         <Box
@@ -95,7 +97,7 @@ const Filter = () => {
           <Box>Show Filter</Box>
         </Box>
       </Button>
-      <Box display={{ base: isOpen ? "block" : "none", md: "block" }}>
+      <Box display={{ base: isOpen ? "block" : "none", md: "block" }} px={{ base: "1rem", md: "3rem" }}>
         <Divider />
         <Box>
           <Text fontWeight="bold" my="20px">
