@@ -41,6 +41,7 @@ const Hero: React.FC = () => {
           placeholder="Search by title or keyword"
           value={searchTerm}
           onChange={handleInputChange}
+          bg='white'
         />
       </InputGroup>
     </Center>

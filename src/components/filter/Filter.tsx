@@ -75,14 +75,15 @@ const Filter = () => {
       <Button
         onClick={onToggle}
         display={{ base: "block", md: "none" }}
-        my="20px"
-        bg="#F1F1F1"
+        bg="gray.200"
+        
       >
         <Box
           display="flex"
           justifyContent="center"
           alignItems="center"
           gap="10px"
+          
         >
           <Image
             src={filterIcon}

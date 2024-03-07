@@ -72,7 +72,7 @@ const Navbar = () => {
       justify="space-between"
       wrap="wrap"
       px={{ base: "1.5rem", md: "3rem" }}
-      py="1.5rem"
+      py={{ base: "0.5rem", md: "1.5rem" }}
       color="black"
       boxShadow={{ base: "none", md: "md" }}
       direction={{ base: "row", md: "row" }}
